@@ -1,0 +1,687 @@
+<!DOCTYPE HTML>
+<!--[if IE 7]><html data-content="initial" class="ie7 no-anim" lang="en-GB"><![endif]-->
+<!--[if IE 8]><html data-content="initial" class="ie8 no-anim" lang="en-GB"><![endif]-->
+<!--[if IE 9]><html data-content="initial" class="ie9 no-anim" lang="en-GB"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html data-content="initial" lang="en-GB"><!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <title>Portfolio | harish - Javascript Developer</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,700italic' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="AngularJS, React, Redux, Flux, node.js, mongoDB, html, css, javascript, front end developer, portfolio">
+    <meta name="description" content="I’m an enthusiastic and hardworker Front-end developer with a big passion for the digital world and this is my online portfolio!">
+
+    <meta property="og:title" content="Portfolio | Harish - Javascript Developer" />
+    <meta property="og:description" content="I’m an enthusiastic and hardworker Javascript developer with a big passion for the digital world and this is my online portfolio!" />
+    <meta property="og:image" content="https://www.harish.pt/images/harish_facebook_cover_3.jpg" />
+
+
+    <link href="css/harish.css" type="text/css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="js/harish-oldie.min.js?v=4"></script>
+    <![endif]-->
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="js/harish.js"></script>
+    <!--<![endif]-->
+
+
+
+    <link rel="icon" href="images/favicon_new.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon_new.ico" type="image/x-icon">
+
+</head>
+
+<body data-ng-app="harishPortfolioApp">
+
+<header>
+    <script type="text/javascript">
+        $(function () {
+            _navigationControl = new Navigation();
+            $('.ic-menu').smallMenu();
+        });
+    </script>
+    <div class="base">
+        <div class="lg-cont">
+            <a href="/" class="lg-small" data-target="initial"><img src="images/logo-small.svg" /></a>
+            <a href="/" class="lg" data-target="initial"><img alt="Harish Kumar - Javascript Developer" src="images/logo.svg" /></a>
+        </div>
+        <div class="ic-menu">
+            <i class="icon-menu"></i>
+            <i class="icon-cancel"></i>
+        </div>
+        <nav>
+            <a href="#greetings" data-target="greetings">Me</a>
+            <a href="#profile" data-target="profile">Profile</a>
+            <a href="#skills" data-target="skills">Skills</a>
+            <a href="#work-education" data-target="workandeducation">Work & Education</a>
+            <a href="#portfolio" data-target="portfolio">Portfolio</a>
+            <a href="#twitter-wall" data-target="twitter-wall">Twitter Wall</a>
+            <a href="#contacts" data-target="contact">Contacts</a>
+        </nav>
+    </div>
+</header>
+
+<section class="banner" data-content="initial">
+	<!--<a onclick="javascript:ga('send', 'event', 'Awards', 'CSS Design Awards - Nominee');" href="http://www.cssdesignawards.com/sites/harish-front-end-developer/25877/" target="_blank" class="css-nominee"></a>-->
+    <div id="awwwards" class="honorable white bottom right">
+        <a onclick="javascript:ga('send', 'event', 'Awards', 'AWWWARDS - Honorable');" href="http://www.awwwards.com/best-websites/harish-front-end-developer/" target="_blank">Awwwards</a>
+    </div>
+    <a target="_blank" onclick="javascript:ga('send', 'event', 'GitHub', 'Fork me on GitHub');" href="https://github.com/HarishSha"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="base">
+        <article>
+            <figure><img src="images/pic_banner.jpg" draggable="false" alt="harish thinking" /></figure>
+            <div class="balloon med anim"></div>
+            <div class="balloon small anim"></div>
+            <div class="balloon big anim">
+                <div class="anim">
+                    <span class="w_frd">Frontend</span>
+                    <span class="w_htl">HTML</span>
+                    <span class="w_web">Web</span>
+                    <span class="w_seo">SEO</span>
+                    <span class="w_grn">Graceful degradation</span>
+                    <span class="w_ajx">AJAX</span>
+                    <span class="w_ang">angularjs</span>
+                    <span class="w_inn">Innovation</span>
+                    <span class="w_css">CSS</span>
+                    <span class="w_pee">performance</span>
+                    <span class="w_ui">UI</span>
+                    <span class="w_rea">React</span>
+                    <span class="w_jat">Javascript</span>
+                    <span class="w_ree">responsive</span>
+                    <span class="w_ecm">ECMAScript 2016</span>
+                    <span class="w_ux">UX</span>
+                    <span class="w_red">Redux</span>
+                    <span class="w_nod">node.js</span>
+                    <span class="w_den">Design</span>
+                    <span class="w_che">Chrome</span>
+                    <span class="w_jqy">jQuery</span>
+                    <span class="w_opa">Opera</span>
+                    <span class="w_soa">Social media</span>
+                    <span class="w_egd">Edge</span>
+                    <span class="w_wbp">WebPack</span>
+                    <span class="w_prt">Progressive enhancement</span>
+                </div>
+            </div>
+            <div class="button">
+                <a href="#greetings" onclick="javascript:ga('send', 'event', 'Navigation', 'Go to greetings');" class="bt-down" data-target="greetings"><span></span></a>
+                <p>or scroll down</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="greetings" class="greetings" data-content="greetings" data-center="true">
+	<div class="base">
+		<div class="text">
+			<span class="g_hi">Hi!</span>
+			<span class="g_my">My name is</span>
+			<span class="g_go">Harish</span>
+			<span class="g_it">(Nick name: Harry)</span>
+			<span class="g_ca">Kumar</span>
+			<span class="g_an">and i'm a</span>
+			<span class="g_24">25</span>
+			<span class="g_ye"> &nbsp;year old enthusiastic</span>
+			<span class="g_fr">Front End Developer</span>
+			<span class="g_ni">Nice to meet you!</span>
+		</div>
+		<figure><img src="images/pic_greetings.jpg" draggable="false" alt="harish greetings!"/></figure>
+	</div>
+</section>
+<section id="profile" class="profile" data-content="profile">
+    <script type="text/javascript">
+        $(function(){
+            _profileGallery = new ProfileGallery();
+        });
+    </script>
+    <div class="base">
+        <figure>
+            <img src="images/pic_profile_1.jpg" alt="harish's profile gallery - picture 1" />
+            <img src="images/pic_profile_2.jpg" alt="harish's profile gallery - picture 2" />
+            <img src="images/pic_profile_3.jpg" alt="harish's profile gallery - picture 3" />
+            <img src="images/pic_profile_4.jpg" alt="harish's profile gallery - picture 4" />
+            <img src="images/pic_profile_5.jpg" alt="harish's profile gallery - picture 5" />
+            <img src="images/pic_profile_6.jpg" alt="harish's profile gallery - picture 6" />
+        </figure>
+        <div class="info">
+            <h2>Profile</h2>
+            <h3>Fullname</h3>
+            <p>Harish Kumar</p>
+            <h3>Birth</h3>
+            <p>22nd January 1994</p>
+            <h3>Address</h3>
+            <p>Gurugram, Haryana</p>
+            <h3>Nationality</h3>
+            <p>Indian</p>
+        </div>
+    </div>
+</section>
+<section id="skills" class="skills" data-content="skills">
+    <div class="base">
+        <div class="dev">
+            <h2>Hard <span>skills</span></h2>
+            <ul>
+                <li>Javascript ES6 & ES7</li>
+                <li>AngularJS</li>
+                <li>ReactJs</li>
+                <li>Test driven development</li>
+                <li>REST API’s</li>
+                <li>Gulp & Webpack</li>
+                <li>CSS3 & HTML5</li>
+                <li>Unit testing</li>
+                <li>Progressive enhancement</li>
+                <li>Graceful degradation</li>
+                <li>and..</li>
+            </ul>
+            <p>Working<br />to be<br /><strong>greater</strong></p>
+        </div>
+
+        <div class="pro">
+            <h2>Soft <span>skills</span></h2>
+            <ul>
+                <li>Team leadership</li>
+                <li>Creativity</li>
+                <li>Problem solving</li>
+                <li>Teamwork</li>
+                <li>Decision making</li>
+                <li>Time management</li>
+                <li>Determination</li>
+                <li>Responsibility</li>
+                <li>Patience</li>
+                <li>Work ethic</li>
+                <li>and...</li>
+            </ul>
+            <p>Working<br />to be<br /><strong>stronger</strong></p>
+        </div>
+
+    </div>
+</section>
+
+<section class="quote">
+    <div class="base">
+        <blockquote>
+            <p>Whether you think you can, or think you can't<br /> - you're <strong>right</strong>.</p>
+            <footer>Henry Ford</footer>
+        </blockquote>
+    </div>
+</section>
+<section id="work-education" class="work" data-content="workandeducation">
+	<div class="base">
+		<h2>Work <span>& Education</span></h2>
+
+		<div class="blc">
+			<div class="meters">
+				<span>1,88 meters</span>
+			</div>
+			<div class="timeline">
+				<article>
+					<span title="Work">w</span>
+
+					<p>May'2017 - now</p>
+
+					<div class="line"><span></span></div>
+					<h3>Front end Developer</h3>
+					<h4>inFeedo Pvt. Ltd</h4>
+					<ul>
+						<li>Team leading</li>
+						<li>Javascript ES6 & ES7</li>
+						<li>2d Canvas & WebGL (using Pixi.js)</li>
+						<li>Node.js</li>
+						<li>Agile development (Scrum)</li>
+					</ul>
+				</article>
+				<article>
+					<span title="Work">w</span>
+
+					<p>Oct'2016 - Apr'2017</p>
+
+					<div class="line"><span></span></div>
+					<h3>Front end Developer</h3>
+					<h4>SmarterClinics</h4>
+					<ul>
+						<li>Responsive development</li>
+						<li>Javascript object oriented programming</li>
+						<li>AngularJS, Kendo UI</li>
+						<li>Node.js</li>
+						<li>REST API's</li>
+						<li>Social API's (Facebook, Twitter, Google Maps)</li>
+						<li>Laravel PHP framework (basics)</li>
+						<li>Single page applications</li>
+						<li>Graceful degradation</li>
+					</ul>
+				</article>
+				<!-- <article>
+					<span title="Work">w</span>
+
+					<p>2010 - 2013</p>
+
+					<div class="line"><span></span></div>
+					<h3>Front end developer</h3>
+					<h4>Portugal Telecom</h4>
+					<ul>
+						<li>HTML & CSS</li>
+						<li>Responsive design and development</li>
+						<li>Cross browser compatibility (IE7+)</li>
+						<li>Javascript framework jQuery (API, UI & Mobile)</li>
+						<li>Javascript object oriented programming</li>
+						<li>UX / UI design</li>
+						<li>SEO best practices</li>
+					</ul>
+				</article> -->
+				<article>
+					<span title="Education">e</span>
+
+					<p>2011 - 2015</p>
+
+					<div class="line"><span></span></div>
+					<h3>B.Tech - Information Technology</h3>
+					<h4>Ansal Institute of Technology</h4>
+					<ul>
+						<li>Final Score 68%</li>
+					</ul>
+                </article>
+                <article>
+					<span title="Education">e</span>
+
+					<p>2009 - 2010</p>
+
+					<div class="line"><span></span></div>
+					<h3>12<sup>th</sup></h3>
+					<h4>S.N.S.P.S</h4>
+					<ul>
+						<li>Final Score 68.8%</li>
+					</ul>
+				</article>
+			</div>
+			<figure><img src="images/pic_work.jpg" alt="Big harish!"/></figure>
+		</div>
+	</div>
+</section>
+<section id="portfolio" class="portfolio" data-content="portfolio" data-ng-controller="Portfolio as portfolio" data-ng-init="current = portfolio.current">
+    <script type="text/javascript">
+        var _portfolioList = [{"_id":"59c67b7d734d1d72c6300801","title":"Be Inspired","date":{"start":"2014"},"tags":["AngularJS","Google Maps API","Facebook Login","YouTube & Vimeo"],"client":"Visit Porto and North - Portugal","working":{"as":"Front-end developer","place":"StepValue - Web Intelligence"},"project_link":"http://visitportoandnorth.travel/Be-Inspired","thumbnail":"11/Be-Inspired-Porto-and-North-thumb.jpg","type":"desktop & tablet website","topics":["AngularJS","Google Maps API","Facebook Javascript SDK","Youtube & Vimeo integration","oo javascript","cross browser compatibility","eZ Publish templating"],"images":["11/beinspired-1.jpg","11/beinspired-2.jpg","11/beinspired-3.jpg","11/beinspired-4.jpg"]},{"_id":"59c67b73734d1d72c63007f9","title":"Navigator Promo 2014","date":{"start":"2014"},"tags":["Responsive","HTML5 & CSS3","Javascript"],"client":"Navigator - Office paper solutions","working":{"as":"Front-end developer","place":"StepValue - Web Intelligence"},"project_link":"http://navigator2014.com","thumbnail":"10/Navigator-Promo-2014-thumb.jpg","type":"responsive website","topics":["AJAX game","HTML5 & CSS3","responsive development","oo javascript","cross browser compatibility","Laravel Blade templating"],"images":["10/navigator-1.jpg","10/navigator-2.jpg","10/navigator-3.jpg","10/navigator-4.jpg"]},{"_id":"59c67b68734d1d72c63007f6","title":"My Royal Canin","date":{"start":"2014"},"tags":["AngularJS","Google Maps API","Javascript"],"client":"Royal Canin Portugal","working":{"as":"Front-end developer","place":"StepValue - Web Intelligence"},"project_link":"http://my.royalcanin.pt","thumbnail":"09/My-Royal-Canin-thumb.jpg","type":"desktop website","topics":["AngularJS","Google Maps API","AJAX image crop functionality","oo javascript","cross browser compatibility","Laravel Blade templating"],"images":["09/myroyalcanin-1.jpg","09/myroyalcanin-2.jpg","09/myroyalcanin-3.jpg","09/myroyalcanin-4.jpg"]},{"_id":"59c67b60734d1d72c63007f2","title":"WebOrder","date":{"start":"2013","end":"2014"},"tags":["SPA","Kendo UI","Javascript"],"client":"Royal Canin Portugal","working":{"as":"Front-end developer","place":"StepValue - Web Intelligence"},"project_link":"http://weborder.royalcanin.pt","thumbnail":"08/Weborder-Royal-Canin-thumb.jpg","type":"desktop & tablet website","topics":["single page application","Kendo UI","oo javascript","cross browser compatibility","Symfony2 twig templating"],"images":["08/weborder-1.jpg","08/weborder-2.jpg","08/weborder-3.jpg"]},{"_id":"59c67b55734d1d72c63007f0","title":"New Terracotta","date":{"start":"2013","end":"2014"},"tags":["Javascript","HTML5 & CSS3","jQUery"],"client":"New Terracotta - Portuguese Handmade","working":{"as":"Front-end developer","place":"harish - Front End Developer"},"project_link":"http://www.newterracotta.com","thumbnail":"07/NewTerracotta-Website-thumb.jpg","type":"desktop website","topics":["HTML5 & CSS3","jQuery","oo javascript","SEO optimization","cross browser compatibility","project management","DotNetNuke skinning"],"images":["07/newterracotta-1.jpg","07/newterracotta-2.jpg","07/newterracotta-3.jpg","07/newterracotta-4.jpg"]},{"_id":"59c67b4b734d1d72c63007ef","title":"MEO Selfcare","date":{"start":"2013"},"tags":["Javascript","HTML5 & CSS3","jQUery"],"client":"MEO","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://cliente.meo.pt","thumbnail":"06/MEO-Selfcare-thumb.jpg","type":"desktop & tablet website","topics":["front-end development","usability and UX","oo javascript"],"images":["06/MEO-selfcare-1.jpg","06/MEO-selfcare-2.jpg","06/MEO-selfcare-3.jpg","06/MEO-selfcare-4.jpg"]},{"_id":"59c67b43734d1d72c63007ed","title":"Portuguese Navy","date":{"start":"2013"},"tags":["Javascript","Google Maps API","jQuery UI"],"client":"Portuguese Navy (Marinha Portuguesa)","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://www.marinha.pt","thumbnail":"05/Portuguese-Navy-thumb.jpg","type":"desktop website","topics":["front-end development","jQuery","Google Maps API","oo javascript","javascript performance","jQuery UI datepicker","endless scrolling gallery"],"images":["05/portuguese-navy-1.jpg","05/portuguese-navy-2.jpg","05/portuguese-navy-3.jpg","05/portuguese-navy-4.jpg"]},{"_id":"59c67b23734d1d72c63007e5","title":"Football Legends","date":{"start":"2012"},"tags":["Javascript","Parallax"],"client":"Portuguese Football Federation","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://lendas.fpf.pt","thumbnail":"04/Football-Legends-thumb.jpg","type":"Microsite","topics":["parallax scrolling","front-end development","dynamic capabilities","DotNetNuke integration"],"images":["04/fpf-legends-1.jpg","04/fpf-legends-2.jpg","04/fpf-legends-3.jpg","04/fpf-legends-4.jpg"]},{"_id":"59c67b0a734d1d72c63007dd","title":"Benfica Funzone","date":{"start":"2012"},"tags":["Javascript","Web Design","HTML5 & CSS3"],"client":"Sport Lisboa e Benfica","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://funzone.slbenfica.pt","thumbnail":"03/Benfica-Funzone-thumb.jpg","type":"desktop website","topics":["HTML5 / CSS3","UX / UI web design","concept analysis","front-end development"],"images":["03/benfica-funzone-1.jpg","03/benfica-funzone-2.jpg","03/benfica-funzone-3.jpg","03/benfica-funzone-4.jpg"]},{"_id":"59c67af4734d1d72c63007d1","title":"Benfica Mobile","date":{"start":"2012"},"tags":["Javascript","HTML5 & CSS3","jQuery Mobile"],"client":"Sport Lisboa e Benfica","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://m.slbenfica.pt","thumbnail":"02/Benfica-Mobile-thumb.jpg","type":"mobile website","topics":["HTML5 / CSS3","responsive design & development","jQuery mobile","DotNetNuke skinning","device compatibility testing"],"images":["02/benfica-mobile-1.jpg","02/benfica-mobile-2.jpg","02/benfica-mobile-3.jpg"]},{"_id":"59c67ad1734d1d72c63007ca","title":"Benfica's New Websites","date":{"start":"2011","end":"2012"},"tags":["Javascript","jQuery"],"client":"Sport Lisboa e Benfica","working":{"as":"Front-end developer","place":"Portugal Telecom"},"project_link":"http://www.slbenfica.pt","thumbnail":"01/Sport-Lisboa-Benfica-Website-thumb.jpg","type":"desktop websites","topics":["HTML / CSS","jQuery","DotNetNuke Integration","cross-browser compatibility (IE7+)","content management","Facebook Graph API","AJAX"],"images":["01/benfica-1.jpg","01/benfica-2.jpg","01/benfica-3.jpg","01/benfica-4.jpg"]}];
+    </script>
+    <div class="base">
+        <h2>Portfolio <small>click to more detail</small></h2>
+
+        <div class="list">
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b7d734d1d72c6300801')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Be Inspired</h3>
+                                <ul>
+                                    <li>AngularJS</li>
+                                    <li>Google Maps API</li>
+                                    <li>Facebook Login</li>
+                                    <li>YouTube &amp; Vimeo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/11/Be-Inspired-Porto-and-North-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b73734d1d72c63007f9')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Navigator Promo 2014</h3>
+                                <ul>
+                                    <li>Responsive</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/10/Navigator-Promo-2014-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b68734d1d72c63007f6')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>My Royal Canin</h3>
+                                <ul>
+                                    <li>AngularJS</li>
+                                    <li>Google Maps API</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/09/My-Royal-Canin-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b60734d1d72c63007f2')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>WebOrder</h3>
+                                <ul>
+                                    <li>SPA</li>
+                                    <li>Kendo UI</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/08/Weborder-Royal-Canin-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b55734d1d72c63007f0')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>New Terracotta</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                    <li>jQUery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/07/NewTerracotta-Website-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b4b734d1d72c63007ef')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>MEO Selfcare</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                    <li>jQUery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/06/MEO-Selfcare-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b43734d1d72c63007ed')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Portuguese Navy</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>Google Maps API</li>
+                                    <li>jQuery UI</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/05/Portuguese-Navy-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b23734d1d72c63007e5')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Football Legends</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>Parallax</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/04/Football-Legends-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67b0a734d1d72c63007dd')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Benfica Funzone</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>Web Design</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/03/Benfica-Funzone-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67af4734d1d72c63007d1')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Benfica Mobile</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>HTML5 &amp; CSS3</li>
+                                    <li>jQuery Mobile</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/02/Benfica-Mobile-thumb.jpg" /></figure>
+                </a>
+            </article>
+            <article>
+                <a href="#" data-ng-click="portfolio.show($event, '59c67ad1734d1d72c63007ca')">
+                    <div class="info">
+                        <div>
+                            <div>
+                                <h3>Benfica&#39;s New Websites</h3>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <figure><img data-ng-src="images/projects/01/Sport-Lisboa-Benfica-Website-thumb.jpg" /></figure>
+                </a>
+            </article>
+        </div>
+
+    </div>
+
+    <div class="modal-dark" data-ng-show="portfolio.modal" data-ng-click="portfolio.hide()"></div>
+
+    <div class="modal" data-ng-show="portfolio.modal">
+
+        <div class="base">
+
+            <div class="close-modal" data-ng-click="portfolio.hide()">x</div>
+
+            <div class="proj-gallery">
+
+                <ul>
+                    <li data-ng-repeat="nav in current.images" data-ng-class="{active: nav.active}" data-ng-click="portfolio.showDetailImage(current.images, nav)"><span></span></li>
+                </ul>
+
+                <div class="slider">
+                    <figure data-ng-repeat="image in current.images" class="img-element ng-animate-disabled" data-ng-class="{active : image.active }"><img data-ng-src="images/projects/[[image.src]]" /></figure>
+                </div>
+
+            </div>
+
+            <div class="proj-info">
+
+                <div class="main-info">
+                    <div class="top">
+                        <div class="date">
+                            <span>[[current.date.start]]</span>
+                            <span data-ng-if="current.date.end != null">- [[current.date.end]]</span>
+                        </div>
+                        <div class="type">[[current.type]]</div>
+                    </div>
+                    <div class="sep"></div>
+                    <div class="tit">[[current.title]]</div>
+                    <div class="tags">
+                        <span data-ng-repeat="tag in current.tags">[[tag]]</span>
+                    </div>
+                    <ul class="topics">
+                        <li data-ng-repeat="topic in current.topics">. [[topic]]</li>
+                    </ul>
+                </div>
+
+                <div class="sec-info">
+                    <div>
+                        <strong>client</strong>
+                        <p>[[current.client]]</p>
+                    </div>
+                    <div>
+                        <strong>working as</strong>
+                        <p>[[current.working.as]]</p>
+                        <p class="proj-subval">[[current.working.place]]</p>
+                        <p class="proj-copy">Copyright © All the rights reserved</p>
+                    </div>
+                    <a class="proj-lk" href="[[current.project_link]]" target="_blank" title="[[current.title]]"><small>▸</small>Visit website</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- <section id="twitter-wall" class="twitter" data-content="twitter-wall" data-ng-controller="TwitterWall as twitter">
+
+    <input name="tweetToken" id="tweetToken" type="hidden" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjEwMy4yMDMuMjI3LjEzNyJ9.Woqthh_YeZeiW_QlBE0Y3jDPMirQkW65sWRhpKY0nbk"/>
+
+    <div class="base">
+
+        <h2><i class="icon-twitter"></i> <span>Real Time</span> Twitter wall</h2>
+
+        <h3>Real time tweets about <strong>#javascript</strong>, <strong>#html</strong>, <strong>#css</strong>, <strong>#angularjs</strong>, <strong>#nodejs</strong>, <strong>#mongodb</strong>, <strong>#frontend</strong> and <strong>#harish</strong>.</h3>
+
+        <div class="tweet-bt">
+            <a href="http://twitter.com/share" data-ng-click="twitter.tweetThis($event)"><i class="icon-twitter"></i><br />tweet</a>
+            <span>and join the wall</span>
+        </div>
+
+        <div class="big-tweet tweet">
+            <div class="tweet1">
+                <div class="msg">Check out the new <em>@goncalocardo_o</em>’s portfolio,
+                    developed using <em>#MongoDB</em>,
+                    <em>#AngularJS</em> and <em>#NodeJs</em>.
+                    <em>#harish</em>
+                    <a href="http://harish.pt" target="_blank">http://harish.pt</a>
+                </div>
+                <div class="img"></div>
+            </div>
+        </div>
+
+        <div class="tweet-list">
+
+            <div class="tweet" data-ng-animate="animate" data-ng-class="[tweet.classname,tweet.position]" data-ng-repeat="tweet in twitter.list | reverse | limitTo : 14">
+                <div data-ng-if="tweet.classname == 'tweet1' || tweet.classname == 'tweet3' || tweet.classname == 'tweet4'">
+                    <div class="msg" data-ng-bind-html="tweet.text"></div>
+                    <div class="img">
+                        <div class="pic">
+                            <a href="[[tweet.tweeturl]]" target="_blank"><img data-ng-src="[[tweet.image]]" data-ng-show="[[tweet.imageVisible]]" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-ng-if="tweet.classname == 'tweet2' || tweet.classname == 'tweet5'">
+                    <div class="img">
+                        <div class="pic">
+                            <a href="[[tweet.tweeturl]]" target="_blank"><img data-ng-src="[[tweet.image]]" data-ng-show="[[tweet.imageVisible]]" /></a>
+                        </div>
+                    </div>
+                    <div class="msg" data-ng-bind-html="tweet.text"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section> -->
+<section id="contacts" class="contact" data-content="contact">
+    <script type="text/javascript">
+        $(function () {
+            _scrollControl = new ScrollControler();
+            _contactForm = new ContactForm();
+        });
+    </script>
+    <div class="base">
+        <h2>Contact<span> me</span></h2>
+        <div class="network">
+            <a  href="https://www.linkedin.com/in/harish-kumar-49b4b9b2/" target="_blank" class="in" title="LinkedIn profile"><i class="icon-linkedin"></i></a>
+            <!-- <a  href="skype:harish89" class="sk" title="Skype"><i class="icon-skype"></i></a> -->
+            <a  href="mailto:harishk3499@gmail.com" class="em" title="Email"><i class="icon-mail"></i></a>
+            <a  href="docs/Harish_CV.pdf" target="_blank" class="cv" title="CV"><i class="icon-cv"></i></a>
+            <!-- <a  href="http://twitter.com/goncalocardo_o" target="_blank" class="fb" title="Twitter"><i class="icon-twitter"></i></a> -->
+            <!-- <form autocomplete="off">
+                <div class="form">
+                    <h3>Write me something</h3>
+                    <input name="token" type="hidden" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjEwMy4yMDMuMjI3LjEzNyJ9.Woqthh_YeZeiW_QlBE0Y3jDPMirQkW65sWRhpKY0nbk"/>
+                    <input type="hidden" name="country" value="No country" />
+                    <div class="ln">
+                        <label for="nameFieldInput" id="nameFieldLabel">Name</label>
+                        <input name="name" type="text" placeholder="Name" id="nameFieldInput" />
+                        <div class="err"></div>
+                    </div>
+                    <div class="ln">
+                        <label for="emailFieldInput" id="emailFieldLabel">Email</label>
+                        <input name="email" type="text" placeholder="Email" id="emailFieldInput" />
+                        <div class="err"></div>
+                    </div>
+                    <div class="ln">
+                        <label for="messageFieldTextarea" id="messageFieldLabel">Message</label>
+                        <textarea name="message" type="text" placeholder="Message" id="messageFieldTextarea"></textarea>
+                        <div class="err"></div>
+                    </div>
+                    <input type="submit" id="formSubmitButton" value="Send" />
+                </div>
+                <div class="success-block">
+                    <div><em>Thank you!</em><span>We'll be in touch</span></div>
+                </div>
+            </form> -->
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="base">
+        <h3>Thank you <br /><span>for your time!</span></h3>
+        <figure><img src="images/pic_footer.jpg" alt="Go back" /></figure>
+        <div class="button">
+            <a href="/"  class="bt-up" data-target="initial"><span></span></a>
+            <p>go back</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136414398-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136414398-1');
+</script>
+
+
+
+</body>
+
+</html>
